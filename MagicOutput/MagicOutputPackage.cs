@@ -47,7 +47,7 @@ namespace MagicOutput
         public ErrorFormat()
         {
             DisplayName = "Output Error";
-            ForegroundColor = Color.FromRgb(255, 100, 100); // Light red
+            ForegroundColor = Color.FromRgb(255, 10, 10); // Light red
         }
     }
 
@@ -61,7 +61,7 @@ namespace MagicOutput
         public WarningFormat()
         {
             DisplayName = "Output Warning";
-            ForegroundColor = Color.FromRgb(255, 200, 100); // Orange/Yellow
+            ForegroundColor = Color.FromRgb(255, 128, 0); // Orange/Yellow
         }
     }
 
@@ -75,7 +75,7 @@ namespace MagicOutput
         public SuccessFormat()
         {
             DisplayName = "Output Success";
-            ForegroundColor = Color.FromRgb(100, 255, 100); // Light green
+            ForegroundColor = Color.FromRgb(0, 128, 0); // Light green
         }
     }
 
@@ -103,7 +103,7 @@ namespace MagicOutput
         public DebugFormat()
         {
             DisplayName = "Output Debug";
-            ForegroundColor = Color.FromRgb(180, 180, 180); // Gray
+            ForegroundColor = Color.FromRgb(79, 79, 79); // Gray
         }
     }
 
@@ -117,7 +117,7 @@ namespace MagicOutput
         public TraceFormat()
         {
             DisplayName = "Output Trace";
-            ForegroundColor = Color.FromRgb(200, 150, 255); // Purple
+            ForegroundColor = Color.FromRgb(138, 32, 255); // Purple
         }
     }
 
